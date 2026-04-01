@@ -15,3 +15,12 @@ git clone git@github.com:NadmanFaisal/hyprland-config.git ~/.config/hypr
 
 Based on the excellent JaKooLit Hyprland Dotfiles.
 
+## Monitor Management (hyprmoncfg)
+This setup uses **hyprmoncfg** for a visual way to manage monitor layouts, rotations, and profiles without manual coordinate math.
+
+### 1. Installation
+To install the tool and its background daemon on a fresh system, run the following:
+
+```bash
+chmod +x install_hyprmonconf.sh
+```
